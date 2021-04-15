@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+.label, .user__info--role, .user__courses--course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ece9ff;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+
+#users__wrapper {
+  width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.user {
+  background: #f8f8f8;
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.user:last-of-type {
+  margin-bottom: 0;
+}
+
+.user__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.user__info--data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user__info--role {
+  min-width: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.user__info--role p {
+  margin: 0 0 0 5px;
+  text-transform: capitalize;
+}
+
+.user__naming {
+  padding-left: 10px;
+}
+
+.user__naming p {
+  margin: 0 0 3px 0;
+}
+
+.user__courses {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.user__courses--course {
+  margin: 0 10px 0 0;
+}
+
+.user__courses--course:last-of-type {
+  margin-right: 0;
+}
+
+.user__courses span {
+  padding: 2px 5px;
+  margin-left: 5px;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.student {
+  background-color: #ece9ff;
+}
+
+.admin {
+  background-color: #e9f2ff;
+}
+
+.lector {
+  background-color: #ffe9e9;
+}
+
+.satisfactory {
+  color: #F44336;
+  background-color: rgba(244, 67, 54, 0.1);
+}
+
+.good {
+  color: #673AB7;
+  background-color: rgba(103, 58, 183, 0.1);
+}
+
+.very-good {
+  color: #00BCD4;
+  background-color: rgba(0, 188, 212, 0.1);
+}
+
+.excellent {
+  color: #4CAF50;
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.admin--info {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.admin--info .user__courses--course {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.admin--info .user__courses--course p {
+  margin: 0 0 5px 0;
+}
+/*# sourceMappingURL=style.css.map */
